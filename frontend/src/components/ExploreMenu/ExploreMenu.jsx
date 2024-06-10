@@ -20,7 +20,7 @@ const ExploreMenu = ({ category, setCategory }) => {
             }
             key={index}
             className={`explore-menu-list-item ${
-              category === item.menu_nam ? "active" : ""
+              category === item.menu_name ? "active" : ""
             }`}
           >
             <img
